@@ -8,13 +8,13 @@ if (gender == 'f')
     {
         Console.WriteLine("Ewa, lat 33");
     }
-    else
+    else if (age < 30)
     {
         Console.WriteLine("Kobieta poniżej 30 lat");
     }
     
 }
-else
+else if (age < 18)
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
 }
